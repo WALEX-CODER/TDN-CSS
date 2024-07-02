@@ -1,0 +1,5 @@
+body{background-color: cornsilk;}
+.first h1 {width: 30rem; font-family: Tahoma; color: teal;}
+.first p {width: 35rem;}
+.first .button { display: flex; margin-bottom: 2rem; justify-content: space-evenly;}
+.first .button .meta1 {background-color: teal; text-decoration: none;}
