@@ -5,12 +5,44 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 20px ;
+    font-family: "nunito", sans-serif;
 }
 /* Navbar Styling Start Here */
 .wrapper {
     display: flex;
     justify-content: space-between;
     gap: 1.5rem;
+    height: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+    padding-left: 50px;
+    overlay: 10px;
+}
+.icon img {
+    width: 15rem;
+}
+.navlinks {
+    justify-content: space-around;
+    display: flex;
+    gap: 5rem;
+}
+.navlinks a {
+    text-decoration: none;
+    color: black;
+    gap: 1.5rem;
+    align-items: stretch;
+}
+.navbutton a {
+    color: white;
+    text-decoration: none;
+    background-color: teal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+
 }
 /* First Class Styling Starts Here */
 .first {
@@ -18,24 +50,14 @@ body{
     border-radius: 10px;
     overflow: hidden;
 }
-.icon img {
-    width: 10rem;
-}
-.navlinks a {
-    text-decoration: none;
-    color: black;
-    gap: 1.5rem;
-}
 .text {
     padding: 40px;
 }
 .text h1 {
     width: 35rem;
-    font-family: tahoma;
 }
 .text .edition {
-    font-size: 20px; 
-    font-family: cambria; 
+    font-size: 20px;  
     color: black;
 }
 .text p {
@@ -60,7 +82,41 @@ body{
     max-width: 50%;
 }
 .grid img {
-    width: 30rem;
+    width: 40rem;
     height: 100%;
     border-radius: 10px;
+}
+/* Second Styling Starts Here */
+.second {
+    background-color: teal;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.second h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.para {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 2rem;
+    color: white;
+}
+/* Third Styling Starts Here */
+.third {
+}
+.graph {
+    width: 45rem;
+}
+.hub a {
+    color: teal;
+    text-decoration: none;
+    font-size: larger;
 }
