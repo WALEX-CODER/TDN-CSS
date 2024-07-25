@@ -21,8 +21,9 @@ header {
     height: 50px;
     margin-bottom: 100px;
     align-items: center;
+    padding-top: 15px;
     padding-left: 50px;
-
+    padding-right: 50px;
     padding-bottom: 20px;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -51,12 +52,12 @@ header {
     padding-left: 20px;
     border-radius: 5px;
 }
-
 /* First Class Styling Starts Here */
 .first {
     display: flex;
     border-radius: 10px;
     overflow: hidden;
+    padding-top: 10rem;
 }
 .text {
     padding: 40px;
@@ -186,4 +187,21 @@ header {
 .last .dummy a {
     text-decoration: none;
     color: black;
+}
+.down .icons {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    gap: 3rem;                                                                                                                                                                                                                            
+}
+.down .icons img {
+    width: 25px;
+}
+.down .final {
+    background-color: black;
+    color: white;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    justify-content: center;
+    display: flex;
 }
